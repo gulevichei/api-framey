@@ -16,3 +16,12 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->group(['namespace' => 'Api', 'prefix' => '/api'], function () use ($router) {
+    $router->get('/employee', 'EmployeeController@list');
+    $router->get('/employee/{id}', 'EmployeeController@get');
+    $router->get('/employee/{id}/subordinates', 'EmployeeController@getSubordinates');
+    $router->post('/employee', 'EmployeeController@store');
+    $router->put('/employee/{id}', 'EmployeeController@update');
+    $router->delete('/employee/{id}', 'EmployeeController@destroy');
+});
