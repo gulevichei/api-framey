@@ -19,3 +19,5 @@ make tests
 ### Project endpoints
 
 Please see http://framey.local:8000/api/documentation
+
+![example](https://github.com/gulevichei/api-framey/tree/master/storage/example.png)
