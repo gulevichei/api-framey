@@ -20,4 +20,4 @@ make tests
 
 Please see http://framey.local:8000/api/documentation
 
-![example](https://github.com/gulevichei/api-framey/tree/master/storage/example.png)
+![example](https://raw.githubusercontent.com/gulevichei/api-framey/master/storage/example.png)
